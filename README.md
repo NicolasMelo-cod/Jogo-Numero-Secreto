@@ -6,41 +6,61 @@ O objetivo do jogo é adivinhar um número secreto gerado aleatoriamente pelo si
 
 ---
 
-## 📌 Demonstração do funcionamento
+## 📌 Demonstração
 
-Ao iniciar o jogo, o usuário recebe uma mensagem de boas-vindas e deve escolher um número entre 1 e 100.
+Ao iniciar o jogo, o usuário deve escolher um número entre 1 e 100.
 
-O sistema informa se o número secreto é maior ou menor que o chute até que o jogador acerte.
+A cada tentativa, o sistema informa se o número secreto é **maior ou menor** que o valor informado, até que o jogador acerte.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
-## 🧠 Lógicas e conceitos aplicados
+## 🧠 Conceitos aplicados
 
-Durante o desenvolvimento foram praticados:
+Durante o desenvolvimento, foram praticados:
 
-- Geração de números aleatórios (`Math.random`)
-- Conversão de dados (`parseInt`)
-- Estruturas condicionais (`if / else`)
-- Estrutura de repetição (`while`)
-- Operadores de comparação
-- Template Strings
-- Operador ternário
-- Contador de tentativas
-- Interação com usuário (`alert` e `prompt`)
+* Geração de números aleatórios (`Math.random`)
+* Conversão de dados (`parseInt`)
+* Estruturas condicionais (`if / else`)
+* Estrutura de repetição (`while`)
+* Operadores de comparação
+* Template strings
+* Operador ternário
+* Controle de tentativas
+* Interação com usuário (`alert` e `prompt`)
 
 ---
 
-## ⚙️ Funcionamento do código
+## ⚙️ Lógica principal
 
-### 1️⃣ Geração do número secreto
+### 🔢 Geração do número secreto
 
 ```javascript
 let numeroSecreto = parseInt(Math.random() * 100 + 1);
+```
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi criado com o objetivo de reforçar conceitos fundamentais de lógica de programação e manipulação de dados com JavaScript.
+
+---
+
+## 📈 Possíveis melhorias
+
+* Criar interface visual interativa (substituir alert/prompt)
+* Adicionar botão de reinício do jogo
+* Exibir histórico de tentativas
+* Melhorar experiência do usuário (UX)
+
+---
+
+⭐ Projeto desenvolvido para fins de estudo e evolução na área de desenvolvimento.
